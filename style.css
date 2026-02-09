@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.all-work {
+  padding: 40px;
+  overflow: hidden;
+}
+.header {
+  min-height: 700px;
+  margin-bottom: 100px;
+}
+.sub-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #929292;
+}
+.common {
+  border-radius: 50%;
+  border: grey 1px solid;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+.blue {
+  border: blue 1px solid;
+}
+.laptop-common {
+  position: relative;
+  left: 725px;
+  top: 170px;
+}
+.header-line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sub-menu :hover {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.li-sub {
+  padding: 10px;
+}
+.laptop {
+  background-color: skyblue;
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+.laptop::after {
+  content: url(./images-20260126T081054Z-3-001/images/laptop.png);
+  display: inline-block;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+.name-laptop {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0px;
+}
+.sub-name {
+  margin: 0px;
+  color: white;
+  margin-bottom: 20px;
+}
+.inpute-laptop {
+  border: 0px;
+  padding: 10px;
+  outline: none;
+}
+.full-name::before {
+  content: url(./images-20260126T081054Z-3-001/images/user.png);
+  background-color: white;
+  display: inline-block;
+  align-content: center;
+  width: 30px;
+  padding: 2px;
+  height: 100%;
+  margin: -4px;
+  position: absolute;
+  left: -20px;
+  top: 4px;
+}
+.input-laptop {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.email::before {
+  content: url(./images-20260126T081054Z-3-001/images/email.png);
+  background-color: white;
+  display: inline-block;
+  align-content: center;
+  width: 30px;
+  height: 100%;
+  padding: 2px;
+  margin: -4px;
+  position: absolute;
+}
+.phone::before {
+  content: url(./images-20260126T081054Z-3-001/images/phone.png);
+  background-color: white;
+  display: inline-block;
+  align-content: center;
+  width: 30px;
+  height: 100%;
+  padding: 2px;
+  margin: -4px;
+  position: absolute;
+  top: 4px;
+  left: -20px;
+}
+.request {
+  background-color: orange;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.full-name {
+  height: 31px;
+  position: relative;
+}
+.name-services {
+  display: block;
+  text-align: center;
+}
+.name-services h1 {
+  padding: 0;
+  margin: 0;
+}
+.time {
+  width: 500px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 60px;
+  padding-top: 10px;
+}
+.lorem-image {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.first-part {
+  display: flex;
+  gap: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.second-part {
+  margin-top: 100px;
+  background-color: #ffc155;
+  width: 100%;
+  height: auto;
+  min-height: 700px;
+  padding-top: 70px;
+}
+.name-second-part {
+  color: white;
+  text-align: center;
+}
+.comment {
+  background-color: white;
+  width: 550px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.people-comment {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.comment img {
+  width: 110px;
+  height: 110px;
+  align-self: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.lorem-comment {
+  font-size: 13px;
+  margin-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  position: relative;
+}
+.sub-text-people {
+  align-self: flex-end;
+  margin-left: 130px;
+  position: absolute;
+  color: orange;
+  padding-bottom: 20px;
+}
+.name-position {
+  display: flex; 
+  align-items: center;
+  gap: 10px; 
+  padding-top: 10px;
+  flex-direction: row;
+  
+}
+.second-div-comment{
+  padding: 16px;
+}
+.name-people-comment{
+  color: orange;
+}
+.blue-line{
+  background-color: #709DCA;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
